@@ -28,9 +28,14 @@ export interface ExperienceItem {
   relatedLinks?: { label: string; url: string }[];
 }
 
+export interface Skill {
+  name: string;
+  icon?: string;
+}
+
 export interface SkillCategory {
   name: string;
-  skills: string[];
+  skills: Skill[];
 }
 
 export interface ChatMessage {

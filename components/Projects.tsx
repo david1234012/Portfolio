@@ -162,18 +162,6 @@ export const Projects: React.FC = () => {
 
                         {/* Links */}
                         <div className="pt-6 border-t border-white/5 flex flex-wrap gap-4">
-                             <a 
-                                href={selectedProject.link}
-                                target="_blank"
-                                rel="noopener noreferrer" 
-                                className={`flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium transition-all ${
-                                    selectedProject.link !== "#" 
-                                    ? "bg-primary hover:bg-blue-600 text-white" 
-                                    : "bg-white/5 text-gray-500 cursor-not-allowed"
-                                }`}
-                             >
-                                 <ExternalLink size={20} /> Live Demo
-                             </a>
                              {selectedProject.github && (
                                 <a 
                                     href={selectedProject.github} 

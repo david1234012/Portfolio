@@ -19,19 +19,45 @@ export const PERSONAL_INFO = {
 export const SKILLS: SkillCategory[] = [
   {
     name: "Languages",
-    skills: ["Golang", "Python", "JavaScript", "Java", "HTML/CSS"]
+    skills: [
+      { name: "Golang", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" },
+      { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
+      { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
+      { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
+      { name: "HTML/CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" }
+    ]
   },
   {
     name: "Backend & Cloud",
-    skills: ["Microservices", "gRPC", "RESTful APIs", "Docker", "etcd", "Cassandra"]
+    skills: [
+      { name: "Microservices" },
+      { name: "gRPC", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-original.svg" },
+      { name: "WebSocket" },
+      { name: "RESTful APIs" },
+      { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" },
+      { name: "etcd", icon: "https://raw.githubusercontent.com/cncf/artwork/master/projects/etcd/icon/color/etcd-icon-color.svg" },
+      { name: "Cassandra", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg" }
+    ]
   },
   {
     name: "Web & Frameworks",
-    skills: ["React.js", "Redux", "Node.js", "Gin (Go)", "Selenium"]
+    skills: [
+      { name: "React.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
+      { name: "Redux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" },
+      { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" },
+      { name: "Gin (Go)" },
+      { name: "Selenium", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" }
+    ]
   },
   {
     name: "DevOps & Tools",
-    skills: ["CI/CD", "Git", "High Availability", "System Design", "Automated Testing"]
+    skills: [
+      { name: "CI/CD" },
+      { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" },
+      { name: "High Availability" },
+      { name: "System Design" },
+      { name: "Automated Testing" }
+    ]
   }
 ];
 
@@ -54,7 +80,7 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Implemented CI/CD pipelines and automated testing frameworks, increasing development efficiency by 30%."
     ],
     relatedLinks: [
-      { label: "2024 Computex Showcase", url: "#" }
+      { label: "2024 Computex Showcase", url: "https://www.qnap.com/en-us/news/2024/computex-2024-qnap-showcases-storage-and-network-solutions-in-ai-smart-manufacturing-high-availability-cloud-video-editing-and-air-gap-backup" }
     ]
   },
   {
@@ -75,9 +101,6 @@ export const EXPERIENCE: ExperienceItem[] = [
     description: [
       "Academic Excellence Award (Ranked #1/10 in Software Engineering Division).",
       "Thesis: 'Causal Rule Mining Based on Multi-Dimensional Structure for Institutional Research Decision-Support Task.'"
-    ],
-    relatedLinks: [
-      { label: "View Thesis", url: "#" }
     ]
   },
   {
@@ -89,7 +112,7 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Publication: 'The Implementation of NFC-Based Roll-Calling Application System', presented at the 2016 Taiwan Conference on Software Engineering."
     ],
     relatedLinks: [
-      { label: "View Publication", url: "#" }
+      { label: "View Publication", url: "https://sso.nknu.edu.tw/FacultyExpertise/previewAndLog.aspx?cAES=TGq%2BXQ4N2J3%2BHSR0hQkPlu8h8z5S8449CaNVJ1vH6%2Bx5sTYxUImIICRGninZRvksr24xBMjG0dOb2tH0ginVoJlbNCJXLzJ2no2wUYHDoPbxhNj8iyHOFMG2%2FZqZeYp8D6jtRMC%2FyNy8Evk2pRyllwoPkhaYOW9Tp44dus5kqWk%3D" }
     ]
   }
 ];

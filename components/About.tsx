@@ -20,17 +20,17 @@ export const About: React.FC = () => {
                     My journey in software engineering began with a passion for building efficient systems. From designing NFC-based applications in college to architecting enterprise-grade NAS middleware at QNAP, I've always focused on scalability, modularity, and reliability. I love solving complex distributed system problems and optimizing performance.
                 </p>
                 <div className="flex gap-4 pt-4">
-                    <div className="bg-card p-4 rounded-lg border border-white/5 text-center flex-1">
-                        <span className="block text-3xl font-bold text-primary">4+</span>
-                        <span className="text-sm text-gray-400">Years Exp.</span>
+                    <div className="bg-card p-4 rounded-lg border border-white/5 text-center flex-1 flex flex-col justify-center min-h-[100px]">
+                        <span className="block text-lg sm:text-xl font-bold text-primary leading-tight mb-1">Senior Engineer</span>
+                        <span className="text-xs text-gray-400 uppercase tracking-wider">Position</span>
                     </div>
-                    <div className="bg-card p-4 rounded-lg border border-white/5 text-center flex-1">
-                        <span className="block text-3xl font-bold text-primary">3</span>
-                        <span className="text-sm text-gray-400">Major Projects</span>
+                    <div className="bg-card p-4 rounded-lg border border-white/5 text-center flex-1 flex flex-col justify-center min-h-[100px]">
+                        <span className="block text-2xl sm:text-3xl font-bold text-primary mb-1">QNAP</span>
+                        <span className="text-xs text-gray-400 uppercase tracking-wider">Company</span>
                     </div>
-                    <div className="bg-card p-4 rounded-lg border border-white/5 text-center flex-1">
-                        <span className="block text-3xl font-bold text-primary">30%</span>
-                        <span className="text-sm text-gray-400">Eff. Increase</span>
+                    <div className="bg-card p-4 rounded-lg border border-white/5 text-center flex-1 flex flex-col justify-center min-h-[100px]">
+                        <span className="block text-3xl font-bold text-primary mb-1">5+</span>
+                        <span className="text-xs text-gray-400 uppercase tracking-wider">Years Exp.</span>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { SKILLS } from '../constants';
 import { Cpu, Globe, Server, Layout } from 'lucide-react';
@@ -24,11 +25,14 @@ export const Skills: React.FC = () => {
                             <Icon size={24} />
                         </div>
                         <h3 className="text-lg font-bold text-white mb-4">{category.name}</h3>
-                        <div className="flex flex-wrap gap-2">
+                        <div className="flex flex-wrap gap-3">
                             {category.skills.map(skill => (
-                                <span key={skill} className="px-3 py-1 bg-darker rounded-full text-xs text-gray-300 border border-white/5">
-                                    {skill}
-                                </span>
+                                <div key={skill.name} className="px-3 py-2 bg-darker rounded-lg text-sm text-gray-300 border border-white/5 flex items-center gap-2 hover:border-white/20 transition-colors cursor-default">
+                                    {skill.icon && (
+                                        <img src={skill.icon} alt={skill.name} className="w-5 h-5 object-contain" />
+                                    )}
+                                    <span>{skill.name}</span>
+                                </div>
                             ))}
                         </div>
                     </div>

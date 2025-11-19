@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
           © {new Date().getFullYear()} {PERSONAL_INFO.name}. All rights reserved.
         </div>
         <div className="flex gap-6">
-            <span className="text-gray-600 text-sm">Built with React, Tailwind & Gemini API</span>
+            <span className="text-gray-600 text-sm">Built with React & Tailwind</span>
         </div>
       </div>
     </footer>
